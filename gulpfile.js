@@ -41,7 +41,7 @@ gulp.task("server", function() {
 gulp.task("watch", function() {
   gulp.watch("./index.js", ["build"]);
   gulp.watch("./index.html", ["build"]);
-  gulp.watch("./comments/*.js", ["build"]);
+  gulp.watch("./components/*.js", ["build"]);
 });
 
 //Set default task.
